@@ -1372,7 +1372,7 @@ local function getObjGen()
             Gui.Logo.LayoutOrder = -5
             Gui.Logo.Size = UDim2.new(1, 0, 0.100000001, 0)
             Gui.Logo.ZIndex = 122
-            Gui.Logo.Image = "rbxassetid://18324387181"
+            Gui.Logo.Image = "rbxassetid://18324441221"
             Gui.Logo.ImageColor3 = Color3.fromRGB(134, 142, 255)
             Gui.Logo.ScaleType = Enum.ScaleType.Fit
 
@@ -3265,7 +3265,7 @@ function UILibrary.new(gameName, userId, rank)
     local Drag = Draggable.Drag(window.MainUI, Frame)
 
     --// Customize the GUI
-    window.Watermark.Text = ("mark v2 | %s | %s"):format(userId, gameName)
+    window.Watermark.Text = ("mark v1.0.2 | %s | %s"):format(userId, gameName)
 
     local userinfo = window.MainUI.Sidebar.ContentHolder.UserInfo.Content
     userinfo.Rank.Text = rank
